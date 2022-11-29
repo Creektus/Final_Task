@@ -15,4 +15,13 @@ void methodArray (string [] array1)
     }
 }
 
+void Print(string [] Array)
+{
+    for (int i = 0; i < Array.Length; i++)
+    {
+        Console.Write($"{Array[i]} ");
+    }
+}
+
 methodArray(array1);
+Print(array2);
